@@ -1,0 +1,11 @@
+from datetime import datetime as dt
+today=dt.now()
+date=today.strftime("%D")
+date2=today.strftime("%d")
+day1=today.strftime("%a")
+day2=today.strftime("%A")
+print(today)
+print(date)
+print(date2)
+print(day1)
+print(day2)
